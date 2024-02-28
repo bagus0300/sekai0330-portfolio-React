@@ -4,6 +4,7 @@ import Typed from "react-typed";
 import { headerData } from "../../../data/headerData";
 import "./landing.css";
 import avatar from "../../../assets/png/my avatar.png";
+import resumePdf from "../../../assets/Resume.pdf";
 
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
@@ -86,9 +87,9 @@ function LandingUI({ theme, drawerOpen, classes }) {
             <p>{headerData.desciption}</p>
 
             <div className="lcr-buttonContainer">
-              {headerData.resumePdf && (
+              {resumePdf && (
                 <a
-                  href={headerData.resumePdf}
+                  href={resumePdf}
                   download="resume"
                   target="_blank"
                   rel="noreferrer"
