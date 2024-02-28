@@ -256,23 +256,23 @@ export const headerData = {
 
 #### Data for each component is divided into respective files.
 
-> #### Choose your favourite font from [`src/App.css`](https://github.com/said7388/developer-portfolio/blob/main/src/App.css)
+> #### Choose your favourite font from [`src/App.css`](https://github.com/sekai0330/sekai0330-portfolio-React/developer-portfolio/blob/main/src/App.css)
 
-> #### About You - [`src/data/aboutData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/aboutData.js)
+> #### About You - [`src/data/aboutData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/aboutData.js)
 
-> #### Education details - [`src/data/educationData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/educationData.js)
+> #### Education details - [`src/data/educationData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/educationData.js)
 
-> #### Enter your Projects - [`src/data/projectsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/projectsData.js)
+> #### Enter your Projects - [`src/data/projectsData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/projectsData.js)
 
-> #### Add your Skills - [`src/data/skillsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/skillsData.js)
+> #### Add your Skills - [`src/data/skillsData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/skillsData.js)
 
-> #### Experience - [`src/data/experienceData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/experienceData.js)
+> #### Experience - [`src/data/experienceData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/experienceData.js)
 
-> #### Your Blogs and Articles - [`src/data/blogData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/blogData.js)
+> #### Your Blogs and Articles - [`src/data/blogData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/blogData.js)
 
-> #### Contact Details - [`src/data/contactsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/contactsData.js)
+> #### Contact Details - [`src/data/contactsData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/contactsData.js)
 
-> #### Social Media Profiles - [`src/data/contactsData.js`](https://github.com/said7388/developer-portfolio/blob/main/src/data/socialsData.js)
+> #### Social Media Profiles - [`src/data/contactsData.js`](https://github.com/sekai0330/sekai0330-portfolio-React/blob/main/src/data/socialsData.js)
 
 ```javascript
 // EXAMPLE
@@ -405,7 +405,7 @@ export const educationData = [
 <div>
     <table>
         <tr>
-            <td align="center"><a href="https://github.com/said7388"><img src="https://i.ibb.co/ZmdNH6x/abu-said.jpg" width="135px;" height="135px;" alt=""/><br /><b>Abu Said</b></a></td>
+            <td align="center"><a href="https://github.com/sekai0330"><img src="https://i.ibb.co/ZmdNH6x/abu-said.jpg" width="135px;" height="135px;" alt=""/><br /><b>Abu Said</b></a></td>
             <td align="center"><a href="https://github.com/hhhrrrttt222111"><img src="https://hhhrrrttt222111.web.app/static/media/dp.5f7c380f.jpeg" width="135px;" height="135px;" alt=""/><br /><b>Hemanth R</b></a></td>
         </tr>
     </table>
