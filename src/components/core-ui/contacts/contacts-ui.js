@@ -165,7 +165,7 @@ const ContactUI = ({
             </div>
 
             <div className="socialmedia-icons">
-              {contactsData.twitter && (
+              {/* {contactsData.twitter && (
                 <a
                   href={contactsData.twitter}
                   target="_blank"
@@ -174,7 +174,7 @@ const ContactUI = ({
                 >
                   <FaTwitter aria-label="Twitter" />
                 </a>
-              )}
+              )} */}
               {contactsData.github && (
                 <a
                   href={contactsData.github}
