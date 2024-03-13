@@ -1,9 +1,9 @@
 export const educationData = [
   {
     id: 1,
-    institution: "Technical University of Munich Asia",
-    course: "Bachelor's Degree Computer Science",
-    startYear: "2014",
-    endYear: "2018",
+    institution: "Singapore University of Technology and Design",
+    course: "Bachelor of Engineering - Computer Science and Design",
+    startYear: "2013",
+    endYear: "2017",
   },
 ];
