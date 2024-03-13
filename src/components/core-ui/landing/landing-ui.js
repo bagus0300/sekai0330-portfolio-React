@@ -18,7 +18,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
           style={{ backgroundColor: theme.quaternary }}
         >
           <div className="lcl--content">
-            {contactsData.linkedIn && (
+            {/* {contactsData.linkedIn && (
               <a href={contactsData.linkedIn} target="_blank" rel="noreferrer">
                 <FaLinkedin
                   className="landing--social linkedin-icon"
@@ -26,7 +26,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                   aria-label="LinkedIn"
                 />
               </a>
-            )}
+            )} */}
             {contactsData.github && (
               <a href={contactsData.github} target="_blank" rel="noreferrer">
                 <FaGithub
@@ -36,7 +36,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 />
               </a>
             )}
-            {contactsData.twitter && (
+            {/* {contactsData.twitter && (
               <a href={contactsData.twitter} target="_blank" rel="noreferrer">
                 <FaTwitter
                   className="landing--social twitter-icon"
@@ -53,7 +53,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                   aria-label="facebook"
                 />
               </a>
-            )}
+            )} */}
           </div>
         </div>
         <img

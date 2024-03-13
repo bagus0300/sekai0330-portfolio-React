@@ -185,7 +185,7 @@ const ContactUI = ({
                   <FaGithub aria-label="GitHub" />
                 </a>
               )}
-              {contactsData.linkedIn && (
+              {/* {contactsData.linkedIn && (
                 <a
                   href={contactsData.linkedIn}
                   target="_blank"
@@ -194,9 +194,9 @@ const ContactUI = ({
                 >
                   <FaLinkedinIn aria-label="LinkedIn" />
                 </a>
-              )}
+              )} */}
 
-              {contactsData.medium && (
+              {/* {contactsData.medium && (
                 <a
                   href={contactsData.medium}
                   target="_blank"
@@ -205,9 +205,9 @@ const ContactUI = ({
                 >
                   <FaMediumM aria-label="Medium" />
                 </a>
-              )}
+              )} */}
 
-              {contactsData.youtube && (
+              {/* {contactsData.youtube && (
                 <a
                   href={contactsData.youtube}
                   target="_blank"
@@ -216,9 +216,9 @@ const ContactUI = ({
                 >
                   <FaYoutube aria-label="YouTube" />
                 </a>
-              )}
+              )} */}
 
-              {contactsData.stackOverflow && (
+              {/* {contactsData.stackOverflow && (
                 <a
                   href={contactsData.stackOverflow}
                   target="_blank"
@@ -237,7 +237,7 @@ const ContactUI = ({
                 >
                   <FaFacebook aria-label="facebook" />
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         </div>
