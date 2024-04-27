@@ -8,7 +8,7 @@ const SingleProject = ({ id, name, desc, tags, code, demo, image, theme }) => {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      width: 60,
+      width: 40,
       height: 40,
       borderRadius: 50,
       border: `2px solid ${theme.tertiary}`,
