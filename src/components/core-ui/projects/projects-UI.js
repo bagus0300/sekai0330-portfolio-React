@@ -12,14 +12,13 @@ function ProjectsUI({ theme, classes }) {
         <div
           className="projects"
           id="projects"
-          style={{ backgroundColor: theme.secondary }}
-        >
+          style={{ backgroundColor: theme.secondary }}>
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
           <div className="projects--body">
             <div className="projects--bodyContainer">
-              {projectsData.slice(0, 6).map((project) => (
+              {projectsData.slice(0, 4).map((project) => (
                 <SingleProject
                   theme={theme}
                   key={project.id}
