@@ -15,8 +15,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
       <div className="landing--container">
         <div
           className="landing--container-left"
-          style={{ backgroundColor: theme.quaternary }}
-        >
+          style={{ backgroundColor: theme.quaternary }}>
           <div className="lcl--content">
             {/* {contactsData.linkedIn && (
               <a href={contactsData.linkedIn} target="_blank" rel="noreferrer">
@@ -67,15 +66,14 @@ function LandingUI({ theme, drawerOpen, classes }) {
         />
         <div
           className="landing--container-right"
-          style={{ backgroundColor: theme.secondary }}
-        >
+          style={{ backgroundColor: theme.secondary }}>
           <div className="lcr--content" style={{ color: theme.tertiary }}>
             {/* <h6 style={{ color: theme.primary }}>{headerData.title}</h6> */}
             <h1>{headerData.name}</h1>
             <Typed
               strings={[
-                "Backend Developer",
                 "Frontend Developer",
+                "Backend Developer",
                 "Fullstack Developer",
               ]}
               typeSpeed={40}
