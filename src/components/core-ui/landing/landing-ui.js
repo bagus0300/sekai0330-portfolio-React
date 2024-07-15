@@ -73,7 +73,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
             <Typed
               strings={[
                 "Frontend Developer",
-                "Backend Developer",
+                "AI developer",
                 "Fullstack Developer",
               ]}
               typeSpeed={40}

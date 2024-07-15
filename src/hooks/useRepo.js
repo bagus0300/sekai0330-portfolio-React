@@ -7,7 +7,7 @@ function UseRepo() {
 
   useEffect(() => {
     fetch(
-      `https://api.github.com/search/repositories?q=user:sekai0330&sort=stars&type=Repositories`
+      `https://api.github.com/search/repositories?q=user:marvin9830&sort=stars&type=Repositories`
     )
       .then((response) => response.json())
       .then((data) => {
