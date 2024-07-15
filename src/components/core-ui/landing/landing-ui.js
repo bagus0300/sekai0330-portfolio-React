@@ -4,9 +4,8 @@ import Typed from "react-typed";
 import { headerData } from "../../../data/headerData";
 import "./landing.css";
 import avatar from "../../../assets/png/my avatar.png";
-import resumePdf from "../../../assets/Resume.pdf";
 
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
 
 function LandingUI({ theme, drawerOpen, classes }) {

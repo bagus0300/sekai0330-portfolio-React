@@ -9,6 +9,7 @@ import About from '../../components/core-ui/about/about'
 import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
+import Service from "../../components/core-ui/service/service"
 import { headerData } from '../../data/headerData'
 
 function HomePage() {
@@ -22,9 +23,8 @@ function HomePage() {
             <About />
             <Experience />
             <Skills />
-            {/* <Certificate /> */}
+            {/* <Service /> */}
             <Projects />
-            <Education />
             <Blog />
             <Contacts />
         </div>

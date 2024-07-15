@@ -11,6 +11,8 @@ import shoes from "../assets/png/shoes.png";
 import stock from "../assets/png/stock.png";
 import aitravel from "../assets/png/aitravel.png";
 import marketio from "../assets/png/marketio.png";
+import wine from "../assets/png/wine.png";
+
 
 export const projectsData = [
   {
@@ -40,8 +42,17 @@ export const projectsData = [
     demo: "https://market-io.vercel.app/",
     image: marketio,
   },
-  {
+   {
     id: 4,
+    projectName: "Wine Match",
+    projectDesc: "The most extensive source of wines, spumanti and champagnes.",
+    tags: ["Next.js", "Supabase", "Algolia", "Radix UI"],
+    code: "https://github.com/marvin9830/",
+    demo: "https://wine-match.vercel.app/",
+    image: wine,
+  },
+  {
+    id: 9,
     projectName: "BIENES RAICES",
     projectDesc: "This project about BIENES RAICES site",
     tags: ["React", "Next", "Node", "Express"],
@@ -50,7 +61,7 @@ export const projectsData = [
     image: alpha,
   },
   {
-    id: 4,
+    id: 8,
     projectName: "Jewelry Niche",
     projectDesc:
       "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
@@ -60,7 +71,7 @@ export const projectsData = [
     image: pandora,
   },
   {
-    id: 9,
+    id: 7,
     projectName: "Guitar LA",
     projectDesc: "This project is Guitar shop site.",
     tags: ["React", "Express", "Webpack"],
