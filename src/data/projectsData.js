@@ -8,10 +8,31 @@ import guitar from "../assets/png/guitar.png";
 import tech from "../assets/png/tech.png";
 import shop from "../assets/png/shop.png";
 import shoes from "../assets/png/shoes.png";
+import stock from "../assets/png/stock.png";
+import aitravel from "../assets/png/aitravel.png";
+
 
 export const projectsData = [
   {
     id: 1,
+    projectName: "Stock Sentiment News",
+    projectDesc: "Sentiment News is a AI&Web app dedicated to exploring the relationship between financial news article sentiment and the price action of related stocks.",
+    tags: ["React", "Next", "Node", "Express"],
+    code: "https://github.com/marvin9830/stock-sentiment-news",
+    demo: "https://sentiment-news.vercel.app/",
+    image: stock,
+  },
+  {
+    id: 2,
+    projectName: "AI Travel Planner",
+    projectDesc: "This is is a Software as a Service (SaaS) product to streamline the travel planning process. ",
+    tags: ["React", "Next", "Node", "Express"],
+    code: "https://github.com/marvin9830/#",
+    demo: "https://www.travelplannerai.online/",
+    image: aitravel,
+  },
+  {
+    id: 3,
     projectName: "BIENES RAICES",
     projectDesc: "This project about BIENES RAICES site",
     tags: ["React", "Next", "Node", "Express"],
@@ -20,7 +41,7 @@ export const projectsData = [
     image: alpha,
   },
   {
-    id: 2,
+    id: 4,
     projectName: "Jewelry Niche",
     projectDesc:
       "This project is a Jewelry shop, Customer can be buy product and manage them and make payment.",
