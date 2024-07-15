@@ -60,7 +60,7 @@ export const projectsData = [
     image: pandora,
   },
   {
-    id: 3,
+    id: 9,
     projectName: "Guitar LA",
     projectDesc: "This project is Guitar shop site.",
     tags: ["React", "Express", "Webpack"],
