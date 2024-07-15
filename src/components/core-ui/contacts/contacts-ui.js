@@ -2,13 +2,9 @@ import { IconButton, Snackbar, SnackbarContent } from "@mui/material";
 import React, { useContext } from "react";
 import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
 import {
-  FaFacebook,
+ 
   FaGithub,
-  FaLinkedinIn,
-  FaMediumM,
-  FaStackOverflow,
-  FaTwitter,
-  FaYoutube,
+ 
 } from "react-icons/fa";
 import { FiAtSign, FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -151,18 +147,7 @@ const ContactUI = ({
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
-            <a href={`tel:${contactsData.phone}`} className="personal-details">
-              <div className={classes.detailsIcon}>
-                <FiPhone />
-              </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
-            </a>
-            <div className="personal-details">
-              <div className={classes.detailsIcon}>
-                <HiOutlineLocationMarker />
-              </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
-            </div>
+         
 
             <div className="socialmedia-icons">
               {/* {contactsData.twitter && (
@@ -175,16 +160,7 @@ const ContactUI = ({
                   <FaTwitter aria-label="Twitter" />
                 </a>
               )} */}
-              {contactsData.github && (
-                <a
-                  href={contactsData.github}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaGithub aria-label="GitHub" />
-                </a>
-              )}
+         
               {/* {contactsData.linkedIn && (
                 <a
                   href={contactsData.linkedIn}
