@@ -3,7 +3,7 @@ import { HashLink as NavLink } from "react-router-hash-link";
 import Typed from "react-typed";
 import { headerData } from "../../../data/headerData";
 import "./landing.css";
-import avatar from "../../../assets/png/my avatar.png";
+import avatar from "../../../assets/png/my avatar.jpg";
 import resumePdf from "../../../assets/Resume.pdf";
 
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
