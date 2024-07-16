@@ -4,7 +4,7 @@ import service from '../../../assets/lottie/service.json';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { serviceData } from '../../../data/serviceData';
 import AnimationLottie from '../../helper/animation-lottie';
-import ExperienceCard from './service-card';
+import ServiceCard from './service-card';
 import './service.css';
 
 function Service() {
@@ -15,14 +15,13 @@ function Service() {
             <Container className="experience" id="experience">
                 <div className="experience-body">
                      <div className="experience-description">
-                        <h1 style={{ color: theme.primary }}>Main Services</h1>
+                        <h1 style={{ color: theme.primary }}></h1>
                         {serviceData.map(exp => (
-                            <ExperienceCard
+                            <ServiceCard
                                 key={exp.id}
                                 id={exp.id}
                                 company={exp.company}
-                                startYear={exp.startYear}
-                                endYear={exp.endYear} />
+                                 />
                         ))}
                     </div>
                     <div className="experience-image">

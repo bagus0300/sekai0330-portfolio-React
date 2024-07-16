@@ -23,8 +23,9 @@ function HomePage() {
             <About />
             <Experience />
             <Skills />
-            {/* <Service /> */}
+            <Service />
             <Projects />
+            <Education />
             <Blog />
             <Contacts />
         </div>
