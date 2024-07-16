@@ -1,11 +1,8 @@
 import { IconButton, Snackbar, SnackbarContent } from "@mui/material";
 import React, { useContext } from "react";
 import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
-import {
- 
-  FaGithub,
- 
-} from "react-icons/fa";
+import contact from '../../../assets/lottie/contact.json';
+import AnimationLottie from '../../helper/animation-lottie';
 import { FiAtSign, FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
@@ -149,76 +146,14 @@ const ContactUI = ({
             </a>
          
 
-            <div className="socialmedia-icons">
-              {/* {contactsData.twitter && (
-                <a
-                  href={contactsData.twitter}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaTwitter aria-label="Twitter" />
-                </a>
-              )} */}
-         
-              {/* {contactsData.linkedIn && (
-                <a
-                  href={contactsData.linkedIn}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaLinkedinIn aria-label="LinkedIn" />
-                </a>
-              )} */}
-
-              {/* {contactsData.medium && (
-                <a
-                  href={contactsData.medium}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaMediumM aria-label="Medium" />
-                </a>
-              )} */}
-
-              {/* {contactsData.youtube && (
-                <a
-                  href={contactsData.youtube}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaYoutube aria-label="YouTube" />
-                </a>
-              )} */}
-
-              {/* {contactsData.stackOverflow && (
-                <a
-                  href={contactsData.stackOverflow}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaStackOverflow aria-label="Stack Overflow" />
-                </a>
-              )}
-              {contactsData.facebook && (
-                <a
-                  href={contactsData.facebook}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={classes.socialIcon}
-                >
-                  <FaFacebook aria-label="facebook" />
-                </a>
-              )} */}
+            <div className="education-image">
+                <AnimationLottie animationPath={contact} />
             </div>
           </div>
         </div>
       </div>
-      <img src={theme.contactsimg} alt="contacts" className="contacts--img" />
+
+
     </div>
   );
 };
