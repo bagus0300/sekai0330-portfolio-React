@@ -8,6 +8,7 @@ import AnimationLottie from "../../helper/animation-lottie";
 import landing_1 from "../../../assets/lottie/landing-1.json";
 import landing_2 from "../../../assets/lottie/landing-2.json";
 import landing_3 from "../../../assets/lottie/landing-3.json";
+import small_stars from "../../../assets/lottie/small_stars.json";
 
 import { FaGithub } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
@@ -84,12 +85,23 @@ function LandingUI({ theme, drawerOpen, classes }) {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 300,
+            top: 280,
             left: 1400,
             width: "20%",
             height: "10%",
           }}>
           <AnimationLottie animationPath={landing_3} />
+        </div>
+        <div
+          className="landing--animation-overlay"
+          style={{
+            position: "absolute",
+            top: 550,
+            left: 480,
+            width: "20%",
+            height: "10%",
+          }}>
+          <AnimationLottie animationPath={small_stars} />
         </div>
         <img
           src={avatar}
