@@ -14,7 +14,7 @@ function Experience() {
         <div style={{ backgroundColor: theme.secondary }}>
             <Container className="experience" id="experience">
                 <div className="experience-body">
-                    <div className="experience-image">
+                    <div className="experience-image" style={{width : "100%", height :  "100%"}}>
                         <AnimationLottie animationPath={experience} />
                     </div>
                     <div className="experience-description">
