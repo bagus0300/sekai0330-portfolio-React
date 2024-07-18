@@ -8,7 +8,7 @@ import AnimationLottie from "../../helper/animation-lottie";
 import landing_1 from "../../../assets/lottie/landing-1.json";
 import landing_3 from "../../../assets/lottie/landing-3.json";
 
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaSkype, FaTelegram, FaDiscord } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
 
 function LandingUI({ theme, drawerOpen, classes }) {
@@ -19,15 +19,38 @@ function LandingUI({ theme, drawerOpen, classes }) {
           className="landing--container-left"
           style={{ backgroundColor: theme.quaternary }}>
           <div className="lcl--content">
-            {/* {contactsData.linkedIn && (
-              <a href={contactsData.linkedIn} target="_blank" rel="noreferrer">
-                <FaLinkedin
-                  className="landing--social linkedin-icon"
+            {contactsData.telegramLink && (
+              <a
+                href={contactsData.telegramLink}
+                target="_blank"
+                rel="noreferrer">
+                <FaTelegram
+                  className="landing--social"
                   style={{ color: theme.primary }}
-                  aria-label="LinkedIn"
+                  aria-label="Telegram"
                 />
               </a>
-            )} */}
+            )}
+            <a
+              href={contactsData.telegramLink}
+              target="_blank"
+              rel="noreferrer">
+              <FaDiscord
+                className="landing--social"
+                style={{ color: theme.primary }}
+                aria-label="Discord"
+              />
+            </a>
+
+            {contactsData.skypeLink && (
+              <a href={contactsData.skypeLink} target="_blank" rel="noreferrer">
+                <FaSkype
+                  className="landing--social"
+                  style={{ color: theme.primary }}
+                  aria-label="Skype"
+                />
+              </a>
+            )}
             {contactsData.github && (
               <a href={contactsData.github} target="_blank" rel="noreferrer">
                 <FaGithub
@@ -37,24 +60,6 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 />
               </a>
             )}
-            {/* {contactsData.twitter && (
-              <a href={contactsData.twitter} target="_blank" rel="noreferrer">
-                <FaTwitter
-                  className="landing--social twitter-icon"
-                  style={{ color: theme.primary }}
-                  aria-label="Twitter"
-                />
-              </a>
-            )}
-            {contactsData.facebook && (
-              <a href={contactsData.facebook} target="_blank" rel="noreferrer">
-                <FaFacebook
-                  className="landing--social facebook-icon"
-                  style={{ color: theme.primary }}
-                  aria-label="facebook"
-                />
-              </a>
-            )} */}
           </div>
         </div>
         <div

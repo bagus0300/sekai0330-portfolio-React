@@ -4,7 +4,7 @@ import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
 import contact from "../../../assets/lottie/contact.json";
 import AnimationLottie from "../../helper/animation-lottie";
 import { FiAtSign } from "react-icons/fi";
-import { FaTelegram } from "react-icons/fa";
+import { FaTelegram, FaSkype } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { ThemeContext } from "../../../contexts/theme-context";
 import { contactsData } from "../../../data/contactsData";
@@ -148,6 +148,15 @@ const ContactUI = ({
                 <FaTelegram />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.telegram}</p>
+            </a>
+            <a
+              href="skype:live:.cid.549f9ddf4df46eaf"
+              target="_blank"
+              className="personal-details">
+              <div className={classes.detailsIcon}>
+                <FaSkype />
+              </div>
+              <p style={{ color: theme.tertiary }}>{contactsData.skype}</p>
             </a>
             <div className="education-image">
               <AnimationLottie animationPath={contact} />

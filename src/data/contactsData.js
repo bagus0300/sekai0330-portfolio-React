@@ -1,7 +1,10 @@
 export const contactsData = {
   email: "shottree657@gmail.com",
   telegram: "@Marvine9830",
+  skype: "Marvine",
+  skypeLink: "skype:live:.cid.549f9ddf4df46eaf",
   telegramLink: "https://t.me/Marvine9830",
+  discord: "",
   address: "Singapore ",
   github: "https://github.com/marvin9830",
   facebook: "#",
