@@ -31,6 +31,7 @@ function Experience() {
               }}>
               <AnimationLottie animationPath={landing_4} />
             </div>
+
             <h1 style={{ color: theme.primary }}>Experience</h1>
             {experienceData.map((exp) => (
               <ExperienceCard

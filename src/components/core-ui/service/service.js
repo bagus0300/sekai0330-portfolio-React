@@ -2,6 +2,8 @@ import { Container } from "@mui/material";
 import React, { useContext } from "react";
 import service from "../../../assets/lottie/service.json";
 import charts from "../../../assets/lottie/charts.json";
+import ai from "../../../assets/lottie/ai.json";
+import ec from "../../../assets/lottie/ec.json";
 import { ThemeContext } from "../../../contexts/theme-context";
 import { serviceData } from "../../../data/serviceData";
 import AnimationLottie from "../../helper/animation-lottie";
@@ -30,6 +32,28 @@ function Service() {
               height: "10%",
             }}>
             <AnimationLottie animationPath={charts} />
+          </div>
+          <div
+            className="experience-image"
+            style={{
+              position: "absolute",
+              top: 2850,
+              right: 1500,
+              width: "15%",
+              height: "10%",
+            }}>
+            <AnimationLottie animationPath={ai} />
+          </div>
+          <div
+            className="experience-image"
+            style={{
+              position: "absolute",
+              top: 3150,
+              left: 1100,
+              width: "20%",
+              height: "10%",
+            }}>
+            <AnimationLottie animationPath={ec} />
           </div>
           <div className="experience-image">
             <AnimationLottie animationPath={service} />
