@@ -26,7 +26,7 @@ function Service() {
             className="experience-image"
             style={{
               position: "absolute",
-              top: 2450,
+              top: 2750,
               left: 1200,
               width: "30%",
               height: "10%",
@@ -48,7 +48,7 @@ function Service() {
             className="experience-image"
             style={{
               position: "absolute",
-              top: 3150,
+              top: 3450,
               left: 1100,
               width: "20%",
               height: "10%",

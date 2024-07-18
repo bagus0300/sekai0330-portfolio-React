@@ -10,12 +10,10 @@ export const serviceData = [
   {
     id: 3,
     company: "AI Dev",
-   
-  
   },
   {
     id: 4,
-    company: "SaaS Dev",
+    company: "Web3.js Dev",
   },
   {
     id: 5,

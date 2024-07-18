@@ -39,7 +39,7 @@ function About() {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 100,
+            top: 200,
             right: 100,
             width: "20%",
             height: "10%",
@@ -54,6 +54,21 @@ function About() {
               <br />
               <br />
               {aboutData.description2}
+              <br />
+              <br />
+              {aboutData.description3}
+              <br />
+              <br />
+              {aboutData.description4}
+              <br />
+              <br />
+              {aboutData.description5}
+              <br />
+              <br />
+              {aboutData.description6}
+              <br />
+              <br />
+              {aboutData.description7}
             </p>
           </div>
           <div className="about-animation">

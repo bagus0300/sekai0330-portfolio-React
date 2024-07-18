@@ -24,7 +24,7 @@ function Experience() {
               className="landing--animation-overlay"
               style={{
                 position: "absolute",
-                top: 1500,
+                top: 2000,
                 left: 1500,
                 width: "20%",
                 height: "10%",
