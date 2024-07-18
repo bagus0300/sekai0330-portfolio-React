@@ -1,10 +1,10 @@
 import { IconButton, Snackbar, SnackbarContent } from "@mui/material";
 import React, { useContext } from "react";
 import { AiOutlineCheckCircle, AiOutlineSend } from "react-icons/ai";
-import contact from '../../../assets/lottie/contact.json';
-import AnimationLottie from '../../helper/animation-lottie';
-import { FiAtSign, FiPhone } from "react-icons/fi";
-import { HiOutlineLocationMarker } from "react-icons/hi";
+import contact from "../../../assets/lottie/contact.json";
+import AnimationLottie from "../../helper/animation-lottie";
+import { FiAtSign } from "react-icons/fi";
+import { FaTelegram } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { ThemeContext } from "../../../contexts/theme-context";
 import { contactsData } from "../../../data/contactsData";
@@ -31,8 +31,7 @@ const ContactUI = ({
     <div
       className="contacts"
       id="contacts"
-      style={{ backgroundColor: theme.secondary }}
-    >
+      style={{ backgroundColor: theme.secondary }}>
       <div className="contacts--container">
         <h1 style={{ color: theme.primary }}>Contacts</h1>
         <div className="contacts-body">
@@ -109,8 +108,7 @@ const ContactUI = ({
               }}
               open={open}
               autoHideDuration={4000}
-              onClose={handleClose}
-            >
+              onClose={handleClose}>
               <SnackbarContent
                 action={
                   <React.Fragment>
@@ -118,8 +116,7 @@ const ContactUI = ({
                       size="small"
                       aria-label="close"
                       color="inherit"
-                      onClick={handleClose}
-                    >
+                      onClick={handleClose}>
                       <IoClose fontSize="small" />
                     </IconButton>
                   </React.Fragment>
@@ -137,23 +134,27 @@ const ContactUI = ({
           <div className="contacts-details">
             <a
               href={`mailto:${contactsData.email}`}
-              className="personal-details"
-            >
+              className="personal-details">
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
             </a>
-         
-
+            <a
+              href="https://t.me/Marvine9830"
+              target="_blank"
+              className="personal-details">
+              <div className={classes.detailsIcon}>
+                <FaTelegram />
+              </div>
+              <p style={{ color: theme.tertiary }}>{contactsData.telegram}</p>
+            </a>
             <div className="education-image">
-                <AnimationLottie animationPath={contact} />
+              <AnimationLottie animationPath={contact} />
             </div>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };

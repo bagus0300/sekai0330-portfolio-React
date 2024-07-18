@@ -6,7 +6,6 @@ import "./landing.css";
 import avatar from "../../../assets/png/my avatar.png";
 import AnimationLottie from "../../helper/animation-lottie";
 import landing_1 from "../../../assets/lottie/landing-1.json";
-import landing_2 from "../../../assets/lottie/landing-2.json";
 import landing_3 from "../../../assets/lottie/landing-3.json";
 
 import { FaGithub } from "react-icons/fa";
@@ -62,8 +61,8 @@ function LandingUI({ theme, drawerOpen, classes }) {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 100,
-            left: 300,
+            top: "8%",
+            left: "19%",
             width: "20%",
             height: "10%",
           }}>
@@ -73,8 +72,8 @@ function LandingUI({ theme, drawerOpen, classes }) {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 280,
-            left: 1400,
+            top: "29%",
+            right: "8%",
             width: "20%",
             height: "10%",
           }}>

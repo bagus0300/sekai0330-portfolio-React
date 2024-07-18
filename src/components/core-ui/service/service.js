@@ -23,33 +23,30 @@ function Service() {
             ))}
           </div>
           <div
-            className="experience-image"
             style={{
               position: "absolute",
-              top: 2750,
-              left: 1200,
+              marginBottom: "50%",
+              right: "2%",
               width: "30%",
               height: "10%",
             }}>
             <AnimationLottie animationPath={charts} />
           </div>
           <div
-            className="experience-image"
             style={{
               position: "absolute",
-              top: 2850,
-              right: 1500,
+              marginBottom: "41%",
+              right: "78%",
               width: "15%",
               height: "10%",
             }}>
             <AnimationLottie animationPath={ai} />
           </div>
           <div
-            className="experience-image"
             style={{
               position: "absolute",
-              top: 3450,
-              left: 1100,
+              marginBottom: "-21%",
+              right: "8%",
               width: "20%",
               height: "10%",
             }}>

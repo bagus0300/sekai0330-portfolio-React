@@ -28,8 +28,8 @@ function About() {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 100,
-            right: 1300,
+            top: "2%",
+            right: "89%",
             width: "20%",
             height: "10%",
           }}>
@@ -39,8 +39,8 @@ function About() {
           className="landing--animation-overlay"
           style={{
             position: "absolute",
-            top: 200,
-            right: 100,
+            top: "27%",
+            right: "12%",
             width: "20%",
             height: "10%",
           }}>
